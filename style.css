@@ -91,7 +91,7 @@ nav a{
   margin-bottom: 15px;
 }
 .my_storie{
-  background-color: gray;
+  background-color: #2e3038;
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
@@ -126,7 +126,7 @@ nav a{
   margin-top:10px;
 }
 .footer_part{  
-  background-color: gray;
+  background-color: #2e3038;
   padding-top:15px;
   padding-bottom: 15px;
   display: flex;

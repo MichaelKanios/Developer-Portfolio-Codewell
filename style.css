@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Prata&display=swap');
+/*Font
+font-family: 'Inter', sans-serif; (For Body)
+font-family: 'Prata', serif;  (for Heading)
+*/
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    color: white;    
+    
+    overflow-x:hidden;
+    
+}
+p{
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+header{
+  font-family: 'Inter', sans-serif;
+}
+body{  
+  margin: auto;
+  background-color:black;
+  font-family: 'Prata', serif;
+}
+header ,.jumbotron ,.brands ,.project ,.my_storie, .contact_me,.footer_part{
+  padding-left:100px;
+  padding-right: 100px;
+  margin-bottom: 60px;
+}
+nav{
+  font-weight: 500;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  align-items: center;
+  
+}
+.nav_center ul {
+  display: flex;
+  list-style-type: none;
+  
+}
+nav a{
+  text-decoration: none;
+  padding-left: 50px;
+  opacity: 60%;
+}
+.touch_btn,.footer_btn{
+  padding:10px 40px 10px 40px;
+  background-color:#fbe850;
+  color: black;
+  font-size: 15px;
+  border-radius: 2px;  
+}
+
+.jumbotron h1{
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+.jumbotron p{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 60%;
+}
+.project p,.contact_me p{
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 60%;
+}
+.brands{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.project{
+  display: flex;
+  justify-content: space-between;
+}
+.Spense ,.YelpCamp{
+  width:48%;
+}
+.project a{
+  font-weight:200;
+  font-size: 40px;
+  text-decoration:none;
+}
+.project img{
+  margin-bottom: 15px;
+}
+.my_storie{
+  background-color: gray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+}
+.my_storie h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+.my_storie p{
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 60%;
+}
+.my_storie_right p:first-child{
+  padding-top: 0;
+}
+.my_storie_left,.my_storie_right{
+  width:48%;
+}
+.contact_me {
+   padding-top:40px;
+   padding-bottom: 40px;
+}
+.contact_me h2{
+  font-size: 30px;
+}
+
+.contact_me button{
+  margin-top:10px;
+}
+.footer_part{  
+  background-color: gray;
+  padding-top:15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;  
+}
+.social img{
+  padding-left: 10px;
+}
